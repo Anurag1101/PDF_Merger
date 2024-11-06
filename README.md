@@ -24,19 +24,23 @@ You can install the PyPDF2 library with pip:
 
 ## Setup:
 
-Clone or download this repository.
-Place the PDF files you want to merge into the project folder.
-Usage
-Open the script file and modify the pdfiles list with the names of the PDFs you want to merge.
-Example:
-python
-Copy code
-pdfiles = ["ps.pdf", "py.pdf"]
-Run the script:
-bash
-Copy code
-python PDF_Merger.py
-The merged PDF will be saved as merged.pdf in the same directory.
+- Clone or download this repository.
+  
+- Place the PDF files you want to merge into the project folder.
+  
+## Usage:
+
+### Open the script file and modify the pdfiles list with the names of the PDFs you want to merge.
+
+**Example:**
+
+    pdfiles = ["ps.pdf", "py.pdf"]
+
+### Run the script:
+
+    python PDF_Merger.py
+
+### The merged PDF will be saved as `merged.pdf` in the same directory.
 Example Code
 python
 Copy code
