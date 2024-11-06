@@ -41,44 +41,16 @@ You can install the PyPDF2 library with pip:
     python PDF_Merger.py
 
 ### The merged PDF will be saved as `merged.pdf` in the same directory.
-Example Code
-python
-Copy code
-import PyPDF2
 
-# List of PDF files to merge
-pdfiles = ["ps.pdf", "py.pdf"]
+## Error Handling:
 
-# Create a PdfMerger object
-merger = PyPDF2.PdfMerger()
+### The script includes error handling for:
 
-# Try merging PDFs with error handling
-try:
-    for filename in pdfiles:
-        with open(filename, 'rb') as pdfFile:
-            pdfReader = PyPDF2.PdfReader(pdfFile)
-            merger.append(pdfReader)
-            print(f"Added {filename} to the merger.")
-    
-    # Write the merged output to 'merged.pdf'
-    output_filename = 'merged.pdf'
-    merger.write(output_filename)
-    print(f"Merged PDF saved as '{output_filename}'.")
+- FileNotFoundError: Checks if the specified PDF files are present. If not, it alerts the user.
+  
+- General Exceptions: Catches any other unexpected errors that may occur during file processing.
 
-except FileNotFoundError as e:
-    print(f"Error: {e}. Please check that all files in 'pdfiles' exist.")
-except Exception as e:
-    print(f"An unexpected error occurred: {e}")
-
-finally:
-    # Clean up the merger object
-    merger.close()
-Error Handling
-The script includes error handling for:
-
-FileNotFoundError: Checks if the specified PDF files are present. If not, it alerts the user.
-General Exceptions: Catches any other unexpected errors that may occur during file processing.
-Output
+## Output
 The merged PDF file is saved as merged.pdf in the project folder. Each time the script is run, it will overwrite any existing merged.pdf file in the directory.
 
 Contributions
