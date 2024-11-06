@@ -53,7 +53,8 @@ You can install the PyPDF2 library with pip:
 ## Output
 The merged PDF file is saved as `merged.pdf` in the project folder. Each time the script is run, it will overwrite any existing `merged.pdf` file in the directory.
 
-Contributions
+## Contributions:
+
 Contributions, suggestions, and bug reports are welcome. Feel free to fork the repository and make your changes.
 
 License
