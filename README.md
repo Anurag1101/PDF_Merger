@@ -2,11 +2,13 @@
 
 A Python utility for merging multiple PDF files into a single PDF. This script, using the `PyPDF2` library, reads a list of specified PDF files, merges them, and saves the result as a single PDF file. It also includes error handling to ensure smooth operation.
 
-Features
-Combines multiple PDF files into one.
-Simple to set up and use.
-Handles common errors, such as missing files.
-Provides feedback on each file added and the final output.
+## Features:
+
+- Combines multiple PDF files into one.
+- Simple to set up and use.
+- Handles common errors, such as missing files.
+- Provides feedback on each file added and the final output.
+
 Requirements
 Python 3.x
 PyPDF2 library
