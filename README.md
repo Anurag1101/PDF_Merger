@@ -5,6 +5,7 @@ A Python utility for merging multiple PDF files into a single PDF. This script, 
 ## Features:
 
 - Combines multiple PDF files into one.
+
 - Simple to set up and use.
 - Handles common errors, such as missing files.
 - Provides feedback on each file added and the final output.
