@@ -12,15 +12,18 @@ A Python utility for merging multiple PDF files into a single PDF. This script, 
 
 - Provides feedback on each file added and the final output.
 
-Requirements
-Python 3.x
-PyPDF2 library
+## Requirements:
+
+- Python 3.x
+
+- PyPDF2 library
+
 You can install the PyPDF2 library with pip:
 
-bash
-Copy code
-pip install PyPDF2
-Setup
+    pip install PyPDF2
+
+## Setup:
+
 Clone or download this repository.
 Place the PDF files you want to merge into the project folder.
 Usage
