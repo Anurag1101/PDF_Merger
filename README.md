@@ -4,7 +4,7 @@ A Python utility for merging multiple `PDF` files into a single `PDF`. This scri
 
 ## Features:
 
-- Combines multiple PDF files into one.
+- Combines multiple `PDF` files into one.
 
 - Simple to set up and use.
   
