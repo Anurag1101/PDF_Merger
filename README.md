@@ -1,6 +1,6 @@
 # PDF Merger
 
-A Python utility for merging multiple PDF files into a single PDF. This script, using the `PyPDF2` library, reads a list of specified PDF files, merges them, and saves the result as a single PDF file. It also includes error handling to ensure smooth operation.
+A Python utility for merging multiple `PDF` files into a single `PDF`. This script, using the `PyPDF2` library, reads a list of specified `PDF` files, merges them, and saves the result as a single `PDF` file. It also includes error handling to ensure smooth operation.
 
 ## Features:
 
