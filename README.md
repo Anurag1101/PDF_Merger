@@ -26,7 +26,7 @@ You can install the PyPDF2 library with pip:
 
 - Clone or download this repository.
   
-- Place the PDF files you want to merge into the project folder.
+- Place the `PDF` files you want to merge into the project folder.
   
 ## Usage:
 
